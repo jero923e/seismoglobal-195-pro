@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#0a0d14"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" stroke="#1e293b" stroke-width="8"/>
+  <circle cx="256" cy="256" r="160" stroke="#00f2fe" stroke-width="4" stroke-opacity="0.2" stroke-dasharray="12 12"/>
+  <circle cx="256" cy="256" r="80" stroke="#00f2fe" stroke-width="4" stroke-opacity="0.4"/>
+  <!-- Seismic Waveform Trace -->
+  <path d="M60 256 H170 L195 200 L220 312 L245 130 L270 382 L295 180 L320 290 L345 230 L370 270 L395 256 H452" stroke="#00f2fe" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="270" cy="382" r="12" fill="#ef4444"/>
+</svg>

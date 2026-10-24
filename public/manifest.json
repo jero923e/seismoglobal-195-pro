@@ -1,0 +1,52 @@
+{
+  "name": "SeismoGlobal 195 Pro: 24/7 Early Warning & GIS System",
+  "short_name": "SeismoGlobal Pro",
+  "id": "com.seismoglobal195.app",
+  "description": "Sistema Sismológico Profesional 24/7, Alerta Sísmica Temprana, Clasificador de Réplicas y GIS de Fallas Geológicas para los 195 Países.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07090e",
+  "theme_color": "#0a0d14",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["weather", "utilities", "navigation", "security"],
+  "icons": [
+    {
+      "src": "/seismic-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Alerta SOS & Supervivencia",
+      "short_name": "Alerta SOS",
+      "description": "Abrir inmediatamente el Centro SOS, silbato ultrasónico y kit de rescate",
+      "url": "/#emergency",
+      "icons": [{ "src": "/seismic-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Simulacro Sísmico Oficial",
+      "short_name": "Simulacro",
+      "description": "Disparar simulación de sismo con alarma y cálculo de onda P y S",
+      "url": "/#drill",
+      "icons": [{ "src": "/seismic-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Mapa Sísmico & Fallas",
+      "short_name": "Mapa GIS",
+      "description": "Ver mapa interactivo Google Maps de sismos y fallas activas",
+      "url": "/#monitor",
+      "icons": [{ "src": "/seismic-icon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
